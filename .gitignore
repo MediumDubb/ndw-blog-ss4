@@ -1,0 +1,8 @@
+/silverstripe-cache/
+.idea/
+logs/
+.DS_Store
+.sass-cache/
+/public/assets/
+/public/_resources
+.graphql-generated/

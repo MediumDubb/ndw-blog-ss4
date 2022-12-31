@@ -1,0 +1,26 @@
+{
+    "name": "ndwblog/noahdavidwhittingtonblog",
+    "description": "ndw blog custom theme",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Noah Whittington"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4"
+    },
+    "extra": {
+        "branch-alias": {
+        },
+        "expose": [
+            "css",
+            "images",
+            "javascript",
+            "webfonts"
+        ]
+    }
+}

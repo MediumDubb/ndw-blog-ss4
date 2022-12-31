@@ -1,0 +1,11 @@
+{
+    "SessionManager.CONFIRMATION_TITLE": "Potrdite akcijo",
+    "SessionManager.DELETE_CONFIRMATION_BUTTON": "Izvedi odjave",
+    "SessionManager.CURRENT": "Trenutno",
+    "SessionManager.AUTHENTICATED": "avtenticiran {createdElapsed}...",
+    "SessionManager.LAST_ACTIVE": "nazadnje aktiven {lastAccessedElapsed}...",
+    "SessionManager.LOG_OUT": "Odjava",
+    "SessionManager.LOGGING_OUT": "Odjavljam ...",
+    "SessionManager.ACTIVITY_TOOLTIP_TEXT": "Prijavljen {signedIn}, Nazadnje aktiven {lastActive}",
+    "SessionManager.COULD_NOT_LOGOUT": "Ni vas bilo mogoče odjaviti. Poskusite ponovno kasneje."
+}
