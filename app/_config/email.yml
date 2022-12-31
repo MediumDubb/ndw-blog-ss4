@@ -1,9 +1,26 @@
-# See https://docs.silverstripe.org/en/4/developer_guides/email/ for additional information about setting up email
 ---
-Name: project-emailconfig
-After:
-  - '#emailconfig'
+Name: email
+After: '#emailconfig'
 ---
+SilverStripe\Control\Email\Email:
+  admin_email:
+    noreply@ndwcodes.com: 'NDW Codes'
 SilverStripe\Core\Injector\Injector:
   Swift_Transport:
-    class: Swift_SendmailTransport
+    class: Swift_SmtpTransport
+    properties:
+      Host: '`APP_SMTP_HOST`'
+      Port: '`APP_SMTP_PORT`'
+      Encryption: tls
+    calls:
+      Username: [ setUsername, ['`APP_SMTP_USERNAME`'] ]
+      Password: [ setPassword, ['`APP_SMTP_PASSWORD`'] ]
+      AuthMode: [ setAuthMode, ['login'] ]
+---
+Name: dev-email
+Only:
+  environment: dev
+---
+# Do not change this email. Use the email-override.yml
+SilverStripe\Control\Email\Email:
+  send_all_emails_to: 'blackhole@example.com'

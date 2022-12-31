@@ -9,6 +9,10 @@ Base project folder for a Silverstripe ([http://silverstripe.org](http://silvers
 
 `composer create-project silverstripe/installer my-app`
 
+## SCSS Comp ##
+    sass --watch themes/ndwblog/css/src/styles.scss:themes/ndwblog/css/dist/styles.css --style compressed
+
+
 See [Getting Started](https://docs.silverstripe.org/en/4/getting_started/) for more information.
 
 ## Bugtracker ##

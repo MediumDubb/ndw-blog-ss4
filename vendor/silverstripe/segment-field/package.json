@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "yarn && yarn lint && NODE_ENV=production webpack -p --bail --progress",
+    "dev": "NODE_ENV=development webpack --progress",
+    "watch": "NODE_ENV=development webpack --watch --progress",
+    "css": "WEBPACK_CHILD=css npm run build",
+    "lint": "eslint client/src && sass-lint client/src",
+    "lint-js": "eslint client/src",
+    "lint-js-fix": "eslint client/src --fix",
+    "lint-sass": "sass-lint client/src",
+    "test": "true"
+  },
+  "devDependencies": {
+    "@silverstripe/eslint-config": "^0.0.6",
+    "@silverstripe/webpack-config": "^1.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  },
+  "engines": {
+    "node": "^10.x"
+  }
+}

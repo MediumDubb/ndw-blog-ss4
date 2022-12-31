@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ML\\IRI' => array($vendorDir . '/ml/iri'),
+    'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
 );

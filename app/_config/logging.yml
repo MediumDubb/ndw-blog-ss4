@@ -1,0 +1,21 @@
+---
+Name: error-logs
+After:
+  - "framework/*"
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\Log\LoggerInterface:
+    calls:
+      pushWarningLogFileHandler: [ pushHandler, [ "%$WarningLogFileHandler" ] ]
+      pushErrorLogFileHandler: [ pushHandler, [ "%$ErrorLogFileHandler" ] ]
+  WarningLogFileHandler:
+    class: Monolog\Handler\StreamHandler
+    constructor:
+      - "../logs/ss.warnings.log"
+      - "warning"
+  ErrorLogFileHandler:
+    class: Monolog\Handler\StreamHandler
+    constructor:
+      - "../logs/ss.errors.log"
+      - "error"
+      - false

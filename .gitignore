@@ -1,8 +1,9 @@
 /silverstripe-cache/
 .idea/
-logs/
+logs/*
 .DS_Store
 .sass-cache/
 /public/assets/
-/public/_resources
+/public/_resourcesgit checkout
 .graphql-generated/
+app/_config/email-override.yml

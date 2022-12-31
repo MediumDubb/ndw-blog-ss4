@@ -10,8 +10,8 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
@@ -24,14 +24,33 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '795b01cf23ed94cdbfa9afcee6217952' => __DIR__ . '/..' . '/silverstripe/framework/src/includes/constants.php',
+        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'g' => 
+        array (
+            'g4b0\\SearchableDataObjects\\Tests\\' => 33,
+            'g4b0\\SearchableDataObjects\\' => 27,
+            'g4b0\\HtmlPurifier\\' => 18,
+        ),
+        'W' => 
+        array (
+            'WebFox\\BlogSearch\\Tests\\' => 24,
+            'WebFox\\BlogSearch\\' => 18,
+        ),
         'U' => 
         array (
+            'UndefinedOffset\\SortableGridField\\Tests\\' => 40,
+            'UndefinedOffset\\SortableGridField\\' => 34,
             'UAParser\\' => 9,
+        ),
+        'T' => 
+        array (
+            'TractorCow\\Colorpicker\\Tests\\' => 29,
+            'TractorCow\\Colorpicker\\' => 23,
         ),
         'S' => 
         array (
@@ -56,6 +75,8 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
+            'Symbiote\\GridFieldExtensions\\Tests\\' => 35,
+            'Symbiote\\GridFieldExtensions\\' => 29,
             'Sminnee\\CallbackList\\' => 21,
             'SilverStripe\\i18n\\Tests\\' => 24,
             'SilverStripe\\i18n\\' => 18,
@@ -67,6 +88,11 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'SilverStripe\\VersionedAdmin\\' => 28,
             'SilverStripe\\VendorPlugin\\Tests\\' => 32,
             'SilverStripe\\VendorPlugin\\' => 26,
+            'SilverStripe\\UserForms\\Tests\\Behat\\Context\\' => 43,
+            'SilverStripe\\UserForms\\Tests\\' => 29,
+            'SilverStripe\\UserForms\\' => 23,
+            'SilverStripe\\TagField\\Tests\\' => 28,
+            'SilverStripe\\TagField\\' => 22,
             'SilverStripe\\SiteConfig\\Tests\\' => 30,
             'SilverStripe\\SiteConfig\\' => 24,
             'SilverStripe\\SessionManager\\Tests\\Behat\\Context\\' => 48,
@@ -81,6 +107,8 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'SilverStripe\\ORM\\' => 17,
             'SilverStripe\\MimeValidator\\Tests\\' => 33,
             'SilverStripe\\MimeValidator\\' => 27,
+            'SilverStripe\\Lumberjack\\Tests\\' => 30,
+            'SilverStripe\\Lumberjack\\' => 24,
             'SilverStripe\\LoginForms\\Tests\\' => 30,
             'SilverStripe\\LoginForms\\' => 24,
             'SilverStripe\\Logging\\Tests\\' => 27,
@@ -108,6 +136,9 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'SilverStripe\\CMS\\Tests\\Behaviour\\' => 33,
             'SilverStripe\\CMS\\Tests\\' => 23,
             'SilverStripe\\CMS\\' => 17,
+            'SilverStripe\\Blog\\Tests\\Behat\\Context\\' => 38,
+            'SilverStripe\\Blog\\Tests\\' => 24,
+            'SilverStripe\\Blog\\' => 18,
             'SilverStripe\\Assets\\Tests\\' => 26,
             'SilverStripe\\Assets\\' => 20,
             'SilverStripe\\AssetAdmin\\Tests\\Behat\\Context\\' => 44,
@@ -145,6 +176,9 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
+            'InnisMaggiore\\SilverstripeSocialMetaTags\\' => 41,
+            'InnisMaggiore\\SilverstripeSMTPTester\\' => 37,
+            'InnisMaggiore\\SilverstripeContentExtensions\\' => 44,
         ),
         'H' => 
         array (
@@ -168,6 +202,11 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
             'DeepCopy\\' => 9,
+            'DNADesign\\Elemental\\Tests\\' => 26,
+            'DNADesign\\Elemental\\' => 20,
+            'DNADesign\\ElementalUserForms\\Tests\\Behat\\Context\\' => 49,
+            'DNADesign\\ElementalUserForms\\Tests\\' => 35,
+            'DNADesign\\ElementalUserForms\\' => 29,
         ),
         'C' => 
         array (
@@ -183,9 +222,45 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
     );
 
     public static $prefixDirsPsr4 = array (
+        'g4b0\\SearchableDataObjects\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/g4b0/searchable-dataobjects/tests',
+        ),
+        'g4b0\\SearchableDataObjects\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/g4b0/searchable-dataobjects/src',
+        ),
+        'g4b0\\HtmlPurifier\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/g4b0/htmlpurifier/src',
+        ),
+        'WebFox\\BlogSearch\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webfox/silverstripe-blog-search/tests',
+        ),
+        'WebFox\\BlogSearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webfox/silverstripe-blog-search/src',
+        ),
+        'UndefinedOffset\\SortableGridField\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/undefinedoffset/sortablegridfield/tests',
+        ),
+        'UndefinedOffset\\SortableGridField\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/undefinedoffset/sortablegridfield/src',
+        ),
         'UAParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/ua-parser/uap-php/src',
+        ),
+        'TractorCow\\Colorpicker\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tractorcow/silverstripe-colorpicker/tests/php',
+        ),
+        'TractorCow\\Colorpicker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tractorcow/silverstripe-colorpicker/src',
         ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
@@ -271,6 +346,14 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
+        'Symbiote\\GridFieldExtensions\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symbiote/silverstripe-gridfieldextensions/tests',
+        ),
+        'Symbiote\\GridFieldExtensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symbiote/silverstripe-gridfieldextensions/src',
+        ),
         'Sminnee\\CallbackList\\' => 
         array (
             0 => __DIR__ . '/..' . '/sminnee/callbacklist/src',
@@ -315,6 +398,26 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         'SilverStripe\\VendorPlugin\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/vendor-plugin/src',
+        ),
+        'SilverStripe\\UserForms\\Tests\\Behat\\Context\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/userforms/tests/behat/src',
+        ),
+        'SilverStripe\\UserForms\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/userforms/tests/php',
+        ),
+        'SilverStripe\\UserForms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/userforms/code',
+        ),
+        'SilverStripe\\TagField\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/tagfield/tests',
+        ),
+        'SilverStripe\\TagField\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/tagfield/src',
         ),
         'SilverStripe\\SiteConfig\\Tests\\' => 
         array (
@@ -372,6 +475,14 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         array (
             0 => __DIR__ . '/..' . '/silverstripe/mimevalidator/src',
         ),
+        'SilverStripe\\Lumberjack\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/lumberjack/tests',
+        ),
+        'SilverStripe\\Lumberjack\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/lumberjack/src',
+        ),
         'SilverStripe\\LoginForms\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/login-forms/tests',
@@ -403,10 +514,12 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         'SilverStripe\\Forms\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/tests/php/Forms',
+            1 => __DIR__ . '/..' . '/silverstripe/segment-field/tests',
         ),
         'SilverStripe\\Forms\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/src/Forms',
+            1 => __DIR__ . '/..' . '/silverstripe/segment-field/code',
         ),
         'SilverStripe\\EventDispatcher\\Tests\\' => 
         array (
@@ -481,6 +594,18 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             0 => __DIR__ . '/..' . '/silverstripe/cms/code',
             1 => __DIR__ . '/..' . '/silverstripe/cms/_legacy',
         ),
+        'SilverStripe\\Blog\\Tests\\Behat\\Context\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/blog/tests/behat/src',
+        ),
+        'SilverStripe\\Blog\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/blog/tests/php',
+        ),
+        'SilverStripe\\Blog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/blog/src',
+        ),
         'SilverStripe\\Assets\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/assets/tests/php',
@@ -525,8 +650,8 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -584,6 +709,18 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
         ),
+        'InnisMaggiore\\SilverstripeSocialMetaTags\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/innis-maggiore/silverstripe-social-meta-tags/src',
+        ),
+        'InnisMaggiore\\SilverstripeSMTPTester\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/innis-maggiore/silverstripe-smtp-tester/src',
+        ),
+        'InnisMaggiore\\SilverstripeContentExtensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/innis-maggiore/silverstripe-content-extensions/src',
+        ),
         'HtmlParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/oscarotero/html-parser/src',
@@ -628,6 +765,27 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'DNADesign\\Elemental\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental/tests',
+        ),
+        'DNADesign\\Elemental\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental/src',
+            1 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental/_legacy',
+        ),
+        'DNADesign\\ElementalUserForms\\Tests\\Behat\\Context\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental-userforms/tests/behat/src',
+        ),
+        'DNADesign\\ElementalUserForms\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental-userforms/tests/php',
+        ),
+        'DNADesign\\ElementalUserForms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnadesign/silverstripe-elemental-userforms/src',
+        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -656,6 +814,13 @@ class ComposerStaticInit405d812760504d624355d2e8278ad18d
             'ML\\IRI' => 
             array (
                 0 => __DIR__ . '/..' . '/ml/iri',
+            ),
+        ),
+        'H' => 
+        array (
+            'HTMLPurifier' => 
+            array (
+                0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
             ),
         ),
     );
