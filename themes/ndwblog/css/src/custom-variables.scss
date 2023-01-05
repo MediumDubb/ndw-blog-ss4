@@ -1,0 +1,133 @@
+/************************************* General Settings *************************************/
+$ThemeDir: "/_resources/themes/ndwblog";
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+);
+
+// scss-docs-start color-variables
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+$atomic-tangerine: #F79256;
+$shiny-shamrock: #7CA982;
+$oxford-blue: #00072D;
+
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+    "oxford-blue":      $oxford-blue,
+    "shiny-shamrock":   $shiny-shamrock,
+    "atomic-tangerine": $atomic-tangerine,
+    "blue":             $blue,
+    "indigo":           $indigo,
+    "purple":           $purple,
+    "pink":             $pink,
+    "red":              $red,
+    "orange":           $orange,
+    "yellow":           $yellow,
+    "green":            $green,
+    "teal":             $teal,
+    "cyan":             $cyan,
+    "white":            $white,
+    "gray":             $gray-600,
+    "gray-dark":        $gray-800,
+);
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary:       $oxford-blue;
+$secondary:     $shiny-shamrock;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+    "primary":    $oxford-blue,
+    "secondary":  $shiny-shamrock,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
+
+$custom-theme-colors: (
+    "tertiary": $atomic-tangerine
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+$container-max-width: 1300px;
+
+/************************************* BootStrap Overrides *************************************/
+$font-family-sans-serif: 'Roboto';
+$input-btn-font-family: 'Roboto';
+
+$btn-border-radius: 8px;
+$btn-padding-y: 10px;
+$btn-padding-x: 10px;
+
+$link-color: #007bff;
+$link-hover-color: #0056b3;
+
+/* To extend or change theme-colors in bootstrap 5, you have to override all colors */
+
+
+
+$container-max-widths: (
+    sm: $container-max-width
+);
+
+$container-padding-x: 10vw;
+
+.navbar-toggler{
+    margin-left: auto !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: $secondary !important;
+}
+.navbar-toggler{
+    font-size:2rem !important;
+    &:focus{
+        box-shadow: none !important;
+    }
+}

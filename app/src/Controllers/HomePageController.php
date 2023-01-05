@@ -2,6 +2,7 @@
 namespace NDWCodes\NDWBlog\Controllers;
 
 use PageController;
+use SilverStripe\View\Requirements;
 
 class HomePageController extends PageController
 {
@@ -12,5 +13,8 @@ class HomePageController extends PageController
     public function init() {
         parent::init();
 
+        Requirements::themedJavascript('/vendor/phaser.min');
+        Requirements::themedJavascript('/game_classes/index');
+        Requirements::themedJavascript('/game_classes/settings');
     }
 }

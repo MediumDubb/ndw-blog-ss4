@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <% include Header %>
-<body class="text-primary">
+<body class="text-primary bg-white">
 <main role="main">
     $Layout
 </main>

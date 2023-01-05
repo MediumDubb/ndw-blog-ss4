@@ -35,8 +35,8 @@ namespace {
             Requirements::themedCSS('/src/vendor/slick');
             Requirements::themedCSS('/src/vendor/slick-theme.min');
 
-            Requirements::themedJavascript('/vendor/jquery-3.6.0.min');
-            Requirements::themedJavascript('/vendor/slick.min');
+            // Requirements::themedJavascript('/vendor/jquery-3.6.0.min');
+            // Requirements::themedJavascript('/vendor/slick.min');
             Requirements::themedJavascript('/vendor/bootstrap.min');
             Requirements::themedJavascript('global');
         }
