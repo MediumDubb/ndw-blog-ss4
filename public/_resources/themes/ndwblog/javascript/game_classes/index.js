@@ -15,8 +15,8 @@ const SCREEN_W = 1920;
 const SCREEN_H =1080;
 
 // CENTER SCREEN CORDS
-const SCREEN_CX = SCREEN_W/2;
-const SCREEN_CY = SCREEN_H/2;
+const SCREEN_CX = SCREEN_W / 2;
+const SCREEN_CY = SCREEN_H / 2;
 
 // GAME STATES
 const STATE_INIT = 1;
@@ -57,6 +57,7 @@ class MainScene extends Phaser.Scene
 
         // initiate Settings class
         this.settings = new Settings(this);
+        this.circuit = new Circuit(this);
 
         // listen for pause
         this.input.keyboard.on('keydown-P', function (){
@@ -83,11 +84,17 @@ class MainScene extends Phaser.Scene
 
             case STATE_RESTART:
                 console.log('Restart Game.');
+
+                this.circuit.create();
+
                 state = STATE_PLAY;
                 break;
 
             case STATE_PLAY:
                 console.log('Playing Game.');
+
+                this.circuit.render2D();
+
                 state = STATE_GAMEOVER;
                 break;
 
