@@ -17,6 +17,7 @@ class HomePageController extends PageController
         Requirements::themedJavascript('/game_classes/index');
         Requirements::themedJavascript('/game_classes/settings');
         Requirements::themedJavascript('/game_classes/circuit');
+        Requirements::themedJavascript('/game_classes/camera');
 
 
     }

@@ -58,6 +58,7 @@ class MainScene extends Phaser.Scene
         // initiate Settings class
         this.settings = new Settings(this);
         this.circuit = new Circuit(this);
+        this.camera = new Camera(this);
 
         // listen for pause
         this.input.keyboard.on('keydown-P', function (){
@@ -78,12 +79,13 @@ class MainScene extends Phaser.Scene
     update(time, delta){
         switch (state){
             case STATE_INIT:
-                console.log('Initialize Game.');
+
+                this.camera.init();
+
                 state = STATE_RESTART;
                 break;
 
             case STATE_RESTART:
-                console.log('Restart Game.');
 
                 this.circuit.create();
 
@@ -91,15 +93,13 @@ class MainScene extends Phaser.Scene
                 break;
 
             case STATE_PLAY:
-                console.log('Playing Game.');
 
-                this.circuit.render2D();
+                this.camera.update();
+                this.circuit.render3D();
 
-                state = STATE_GAMEOVER;
                 break;
 
             case STATE_GAMEOVER:
-                console.log('Game Over!');
                 break;
         }
     }
